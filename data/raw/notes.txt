@@ -1,8 +1,84 @@
-Machine learning is a branch of artificial intelligence that allows systems to learn from data.
-Supervised learning uses labeled data.
-Unsupervised learning finds patterns in unlabeled data.
-Classification predicts categories.
-Regression predicts continuous values.
-Training data is used to teach a model.
-Testing data is used to evaluate performance.
-Overfitting happens when a model learns training data too closely and performs poorly on new data.
+Machine learning is a branch of artificial intelligence that allows systems to learn patterns from data and make predictions or decisions without being explicitly programmed for every rule.
+Artificial intelligence is a broader field focused on creating systems that can perform tasks that normally require human intelligence.
+Machine learning is a subset of artificial intelligence.
+
+Supervised learning uses labeled data, which means the correct output is already known during training.
+In supervised learning, the model learns the relationship between inputs and known outputs.
+Common supervised learning tasks include classification and regression.
+
+Classification is used when the output belongs to a category or class.
+Examples of classification include spam detection, disease diagnosis, and image recognition.
+A classification model predicts discrete labels such as yes or no, spam or not spam, or cat or dog.
+
+Regression is used when the output is a continuous numeric value.
+Examples of regression include house price prediction, temperature forecasting, and sales prediction.
+A regression model predicts quantities rather than categories.
+
+Unsupervised learning uses unlabeled data, meaning the data does not include known output labels.
+The goal of unsupervised learning is to find hidden patterns, structures, or groupings in data.
+Common unsupervised learning techniques include clustering and dimensionality reduction.
+
+Clustering is a method of grouping similar data points together.
+Customer segmentation is a common example of clustering.
+Dimensionality reduction is used to reduce the number of variables while preserving important information.
+
+Training data is the dataset used to teach a machine learning model.
+Testing data is the dataset used to evaluate how well the model performs on unseen examples.
+Validation data is often used during development to tune model settings before final testing.
+
+A feature is an input variable used by the model to make predictions.
+A label is the correct output value in supervised learning.
+Feature engineering is the process of selecting, transforming, or creating useful input variables.
+
+Overfitting happens when a model learns the training data too closely, including noise and irrelevant details.
+An overfit model performs very well on training data but poorly on new unseen data.
+Underfitting happens when a model is too simple to capture the real pattern in the data.
+A good model should balance learning the signal without memorizing noise.
+
+Generalization is the ability of a model to perform well on new unseen data.
+The main goal of machine learning is not only to fit training data but to generalize well.
+
+A model is an algorithm or mathematical system trained to make predictions or decisions.
+An algorithm is a defined procedure or method used to solve a problem.
+Some common machine learning algorithms include linear regression, logistic regression, decision trees, random forests, support vector machines, and neural networks.
+
+Linear regression is a basic algorithm used for predicting continuous values.
+Logistic regression is commonly used for binary classification problems.
+Decision trees make predictions by splitting data into branches based on conditions.
+Random forests combine multiple decision trees to improve accuracy and reduce overfitting.
+Neural networks are inspired by the structure of the human brain and are especially useful for complex tasks such as image and speech recognition.
+
+Deep learning is a subset of machine learning based on neural networks with many layers.
+Deep learning is useful for handling large amounts of unstructured data such as images, audio, and text.
+Deep learning often requires more data and computational power than simpler machine learning methods.
+
+A confusion matrix is used to evaluate classification performance.
+Accuracy measures the proportion of correct predictions out of all predictions.
+Precision measures how many predicted positive cases were actually positive.
+Recall measures how many actual positive cases were correctly identified.
+F1-score balances precision and recall into a single metric.
+
+Mean absolute error and mean squared error are common metrics for regression tasks.
+Lower error values usually indicate better regression performance.
+
+Bias refers to error caused by overly simple assumptions in the learning algorithm.
+Variance refers to error caused by sensitivity to changes in the training data.
+A strong model aims to balance bias and variance.
+
+Hyperparameters are settings chosen before training begins, such as learning rate, tree depth, or number of epochs.
+Model parameters are values learned during training.
+Tuning hyperparameters can improve model performance.
+
+Cross-validation is a technique used to evaluate model stability by splitting the data into multiple parts.
+It helps reduce the risk of depending too much on one train-test split.
+
+Data preprocessing is an important step in machine learning.
+Preprocessing may include handling missing values, encoding categorical variables, scaling numeric features, and removing duplicates.
+Good quality data often matters as much as the choice of algorithm.
+
+Normalization and standardization are techniques used to scale data.
+Normalization usually rescales values to a fixed range, often between 0 and 1.
+Standardization transforms data so it has a mean of 0 and a standard deviation of 1.
+
+Machine learning applications include recommendation systems, fraud detection, medical diagnosis, self-driving systems, language translation, and predictive analytics.
+Machine learning is powerful, but its results depend heavily on the quality of data, the choice of model, and the evaluation process.

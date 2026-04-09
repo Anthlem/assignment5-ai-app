@@ -1,34 +1,258 @@
 [
   {
     "id": 1,
-    "content": "Machine learning is a branch of artificial intelligence that allows systems to learn from data."
+    "content": "Machine learning is a branch of artificial intelligence that allows systems to learn patterns from data and make predictions or decisions without being explicitly programmed for every rule."
   },
   {
     "id": 2,
-    "content": "Supervised learning uses labeled data."
+    "content": "Artificial intelligence is a broader field focused on creating systems that can perform tasks that normally require human intelligence."
   },
   {
     "id": 3,
-    "content": "Unsupervised learning finds patterns in unlabeled data."
+    "content": "Machine learning is a subset of artificial intelligence."
   },
   {
     "id": 4,
-    "content": "Classification predicts categories."
+    "content": "Supervised learning uses labeled data, which means the correct output is already known during training."
   },
   {
     "id": 5,
-    "content": "Regression predicts continuous values."
+    "content": "In supervised learning, the model learns the relationship between inputs and known outputs."
   },
   {
     "id": 6,
-    "content": "Training data is used to teach a model."
+    "content": "Common supervised learning tasks include classification and regression."
   },
   {
     "id": 7,
-    "content": "Testing data is used to evaluate performance."
+    "content": "Classification is used when the output belongs to a category or class."
   },
   {
     "id": 8,
-    "content": "Overfitting happens when a model learns training data too closely and performs poorly on new data."
+    "content": "Examples of classification include spam detection, disease diagnosis, and image recognition."
+  },
+  {
+    "id": 9,
+    "content": "A classification model predicts discrete labels such as yes or no, spam or not spam, or cat or dog."
+  },
+  {
+    "id": 10,
+    "content": "Regression is used when the output is a continuous numeric value."
+  },
+  {
+    "id": 11,
+    "content": "Examples of regression include house price prediction, temperature forecasting, and sales prediction."
+  },
+  {
+    "id": 12,
+    "content": "A regression model predicts quantities rather than categories."
+  },
+  {
+    "id": 13,
+    "content": "Unsupervised learning uses unlabeled data, meaning the data does not include known output labels."
+  },
+  {
+    "id": 14,
+    "content": "The goal of unsupervised learning is to find hidden patterns, structures, or groupings in data."
+  },
+  {
+    "id": 15,
+    "content": "Common unsupervised learning techniques include clustering and dimensionality reduction."
+  },
+  {
+    "id": 16,
+    "content": "Clustering is a method of grouping similar data points together."
+  },
+  {
+    "id": 17,
+    "content": "Customer segmentation is a common example of clustering."
+  },
+  {
+    "id": 18,
+    "content": "Dimensionality reduction is used to reduce the number of variables while preserving important information."
+  },
+  {
+    "id": 19,
+    "content": "Training data is the dataset used to teach a machine learning model."
+  },
+  {
+    "id": 20,
+    "content": "Testing data is the dataset used to evaluate how well the model performs on unseen examples."
+  },
+  {
+    "id": 21,
+    "content": "Validation data is often used during development to tune model settings before final testing."
+  },
+  {
+    "id": 22,
+    "content": "A feature is an input variable used by the model to make predictions."
+  },
+  {
+    "id": 23,
+    "content": "A label is the correct output value in supervised learning."
+  },
+  {
+    "id": 24,
+    "content": "Feature engineering is the process of selecting, transforming, or creating useful input variables."
+  },
+  {
+    "id": 25,
+    "content": "Overfitting happens when a model learns the training data too closely, including noise and irrelevant details."
+  },
+  {
+    "id": 26,
+    "content": "An overfit model performs very well on training data but poorly on new unseen data."
+  },
+  {
+    "id": 27,
+    "content": "Underfitting happens when a model is too simple to capture the real pattern in the data."
+  },
+  {
+    "id": 28,
+    "content": "A good model should balance learning the signal without memorizing noise."
+  },
+  {
+    "id": 29,
+    "content": "Generalization is the ability of a model to perform well on new unseen data."
+  },
+  {
+    "id": 30,
+    "content": "The main goal of machine learning is not only to fit training data but to generalize well."
+  },
+  {
+    "id": 31,
+    "content": "A model is an algorithm or mathematical system trained to make predictions or decisions."
+  },
+  {
+    "id": 32,
+    "content": "An algorithm is a defined procedure or method used to solve a problem."
+  },
+  {
+    "id": 33,
+    "content": "Some common machine learning algorithms include linear regression, logistic regression, decision trees, random forests, support vector machines, and neural networks."
+  },
+  {
+    "id": 34,
+    "content": "Linear regression is a basic algorithm used for predicting continuous values."
+  },
+  {
+    "id": 35,
+    "content": "Logistic regression is commonly used for binary classification problems."
+  },
+  {
+    "id": 36,
+    "content": "Decision trees make predictions by splitting data into branches based on conditions."
+  },
+  {
+    "id": 37,
+    "content": "Random forests combine multiple decision trees to improve accuracy and reduce overfitting."
+  },
+  {
+    "id": 38,
+    "content": "Neural networks are inspired by the structure of the human brain and are especially useful for complex tasks such as image and speech recognition."
+  },
+  {
+    "id": 39,
+    "content": "Deep learning is a subset of machine learning based on neural networks with many layers."
+  },
+  {
+    "id": 40,
+    "content": "Deep learning is useful for handling large amounts of unstructured data such as images, audio, and text."
+  },
+  {
+    "id": 41,
+    "content": "Deep learning often requires more data and computational power than simpler machine learning methods."
+  },
+  {
+    "id": 42,
+    "content": "A confusion matrix is used to evaluate classification performance."
+  },
+  {
+    "id": 43,
+    "content": "Accuracy measures the proportion of correct predictions out of all predictions."
+  },
+  {
+    "id": 44,
+    "content": "Precision measures how many predicted positive cases were actually positive."
+  },
+  {
+    "id": 45,
+    "content": "Recall measures how many actual positive cases were correctly identified."
+  },
+  {
+    "id": 46,
+    "content": "F1-score balances precision and recall into a single metric."
+  },
+  {
+    "id": 47,
+    "content": "Mean absolute error and mean squared error are common metrics for regression tasks."
+  },
+  {
+    "id": 48,
+    "content": "Lower error values usually indicate better regression performance."
+  },
+  {
+    "id": 49,
+    "content": "Bias refers to error caused by overly simple assumptions in the learning algorithm."
+  },
+  {
+    "id": 50,
+    "content": "Variance refers to error caused by sensitivity to changes in the training data."
+  },
+  {
+    "id": 51,
+    "content": "A strong model aims to balance bias and variance."
+  },
+  {
+    "id": 52,
+    "content": "Hyperparameters are settings chosen before training begins, such as learning rate, tree depth, or number of epochs."
+  },
+  {
+    "id": 53,
+    "content": "Model parameters are values learned during training."
+  },
+  {
+    "id": 54,
+    "content": "Tuning hyperparameters can improve model performance."
+  },
+  {
+    "id": 55,
+    "content": "Cross-validation is a technique used to evaluate model stability by splitting the data into multiple parts."
+  },
+  {
+    "id": 56,
+    "content": "It helps reduce the risk of depending too much on one train-test split."
+  },
+  {
+    "id": 57,
+    "content": "Data preprocessing is an important step in machine learning."
+  },
+  {
+    "id": 58,
+    "content": "Preprocessing may include handling missing values, encoding categorical variables, scaling numeric features, and removing duplicates."
+  },
+  {
+    "id": 59,
+    "content": "Good quality data often matters as much as the choice of algorithm."
+  },
+  {
+    "id": 60,
+    "content": "Normalization and standardization are techniques used to scale data."
+  },
+  {
+    "id": 61,
+    "content": "Normalization usually rescales values to a fixed range, often between 0 and 1."
+  },
+  {
+    "id": 62,
+    "content": "Standardization transforms data so it has a mean of 0 and a standard deviation of 1."
+  },
+  {
+    "id": 63,
+    "content": "Machine learning applications include recommendation systems, fraud detection, medical diagnosis, self-driving systems, language translation, and predictive analytics."
+  },
+  {
+    "id": 64,
+    "content": "Machine learning is powerful, but its results depend heavily on the quality of data, the choice of model, and the evaluation process."
   }
 ]
