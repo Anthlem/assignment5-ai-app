@@ -60,7 +60,7 @@ export async function POST(req: Request) {
 
     const answer = relevantNotes.map((note) => `- ${note.content}`).join("\n");
 
- return NextResponse.json({
+return NextResponse.json({
   answer,
 });
   } catch (error) {
