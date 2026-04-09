@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "content": "Machine learning is a branch of artificial intelligence that allows systems to learn from data."
+  },
+  {
+    "id": 2,
+    "content": "Supervised learning uses labeled data."
+  },
+  {
+    "id": 3,
+    "content": "Unsupervised learning finds patterns in unlabeled data."
+  },
+  {
+    "id": 4,
+    "content": "Classification predicts categories."
+  },
+  {
+    "id": 5,
+    "content": "Regression predicts continuous values."
+  },
+  {
+    "id": 6,
+    "content": "Training data is used to teach a model."
+  },
+  {
+    "id": 7,
+    "content": "Testing data is used to evaluate performance."
+  },
+  {
+    "id": 8,
+    "content": "Overfitting happens when a model learns training data too closely and performs poorly on new data."
+  }
+]
