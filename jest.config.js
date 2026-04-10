@@ -7,6 +7,8 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   testEnvironment: "jsdom",
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
+  testMatch: ["<rootDir>/tests/**/*.test.[jt]s?(x)"],
+  testPathIgnorePatterns: ["<rootDir>/playwright-tests/", "<rootDir>/node_modules/"],
 };
 
 module.exports = createJestConfig(customJestConfig);

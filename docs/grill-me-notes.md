@@ -1,7 +1,7 @@
 # Grill Me Notes
 
 ## Original idea
-Build a larger AI study assistant with many features.
+Build a larger study helper with many features.
 
 ## Problems found
 - Too large for the assignment
@@ -10,7 +10,7 @@ Build a larger AI study assistant with many features.
 - More likely to fail during the demo
 
 ## Final decision
-Build a small Study Notes AI Assistant.
+Build a small Study Notes Assistant.
 
 ## What changed because of grilling
 - Removed login

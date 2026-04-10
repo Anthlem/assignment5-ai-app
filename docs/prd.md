@@ -1,7 +1,7 @@
-# PRD - Study Notes AI Assistant
+# PRD - Study Notes Assistant
 
 ## Goal
-Build a small end-to-end AI-enabled application that lets users ask questions about prepared study notes.
+Build a small end-to-end application that lets users ask questions about prepared study notes.
 
 ## Use case
 A user can ask questions about a small set of notes and receive answers based on processed note content.

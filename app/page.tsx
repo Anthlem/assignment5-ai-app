@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-black p-8">
       <div className="max-w-2xl mx-auto space-y-6">
-        <h1 className="text-3xl font-bold">Study Notes AI Assistant</h1>
+        <h1 className="text-3xl font-bold">Study Notes Assistant</h1>
         <p className="text-gray-700">
           Ask a question about your prepared study notes.
         </p>

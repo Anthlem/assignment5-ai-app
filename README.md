@@ -1,7 +1,7 @@
-# Study Notes AI Assistant
+# Study Notes Assistant
 
 ## Overview
-This is a small end-to-end AI-enabled application for Assignment 5. It lets a user ask questions about prepared study notes and returns relevant note-based answers.
+This is a small end-to-end application for Assignment 5. It lets a user ask questions about prepared study notes and returns relevant note-based answers.
 
 ## What it does
 - Reads raw notes from `data/raw/notes.txt`
@@ -13,7 +13,7 @@ This is a small end-to-end AI-enabled application for Assignment 5. It lets a us
 - Ingestion of raw notes
 - ETL / transformation into JSON
 - Storage of processed data
-- Question answering through a simple reasoning layer
+- Question answering through a simple matching layer
 - User-facing web interface
 - Deployment on Vercel
 
@@ -36,3 +36,4 @@ This is a small end-to-end AI-enabled application for Assignment 5. It lets a us
 npm install
 node scripts/process-notes.js
 npm run dev
+```
