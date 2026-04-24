@@ -82,3 +82,51 @@ Standardization transforms data so it has a mean of 0 and a standard deviation o
 
 Machine learning applications include recommendation systems, fraud detection, medical diagnosis, self-driving systems, language translation, and predictive analytics.
 Machine learning is powerful, but its results depend heavily on the quality of data, the choice of model, and the evaluation process.
+
+Evaluation is the process of checking how well a machine learning model or system performs.
+Model evaluation compares the system output with the expected result.
+Output quality checks whether the answer is accurate, relevant, and supported by the available notes.
+
+End-to-end task success checks whether the full system works from user input to final output.
+In a web app, end-to-end success means the user can enter a question, the backend can process it, and the frontend can display the answer.
+A successful end-to-end test shows that the main user workflow works correctly.
+
+An upstream component is an earlier part of the pipeline that affects the final result.
+In this app, the note processing step is an upstream component.
+The note processing step converts raw notes into structured JSON.
+If the raw notes are poorly formatted, the processed JSON may also be weak.
+
+A test case is an example question used to check whether the app behaves as expected.
+Representative test cases are normal examples that match the intended use of the app.
+Failure cases are examples where the system may give a weak, incorrect, or unsupported result.
+Testing both normal cases and failure cases helps show the strengths and limits of the system.
+
+A baseline is a simple earlier version of a system used for comparison.
+A baseline comparison helps show whether an improvement actually made the system better.
+If the improved version performs better than the baseline, the change is supported by evidence.
+
+Keyword matching is a simple search method that checks whether words from the question appear in the stored notes.
+Keyword matching is easy to understand and fast to run.
+A weakness of basic keyword matching is that it may match common words that are not very meaningful.
+
+Stop words are common words such as what, is, the, and how.
+Stop words usually do not help much with search.
+Removing stop words can make keyword matching more focused.
+Stop-word filtering helps the system compare more useful words from the question with the stored notes.
+
+Debug metadata is internal information that helps explain how the system produced an answer.
+Debug metadata can include matched keywords, matched note IDs, and output examples.
+Debug metadata is useful for testing, evaluation, and troubleshooting.
+
+A deterministic system gives predictable results when the same input is used.
+A deterministic matching system is easier to debug because the matching logic can be inspected directly.
+Deterministic systems are useful when the task is small, fixed, and does not require creative generation.
+
+A retrieval-first system usually searches stored content before generating or returning an answer.
+A RAG system combines retrieval with a language model to answer questions using retrieved context.
+RAG can be useful when there are many files, large notes, or questions that use different wording.
+RAG also adds complexity because it may require embeddings, vector storage, API calls, and extra evaluation.
+
+A tool-first system relies on functions or deterministic steps to complete the user task.
+In this app, the backend matching function acts like a simple tool that searches the processed notes.
+For a small fixed dataset, a tool-first deterministic matching system can be simpler and more practical than a full RAG system.

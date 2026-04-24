@@ -1,0 +1,41 @@
+{
+  "representativeCases": [
+    {
+      "id": 1,
+      "question": "What is machine learning?",
+      "expectedBehavior": "The app should return notes explaining that machine learning learns patterns from data and makes predictions or decisions."
+    },
+    {
+      "id": 2,
+      "question": "What is supervised learning?",
+      "expectedBehavior": "The app should return notes explaining labeled data and known outputs."
+    },
+    {
+      "id": 3,
+      "question": "What is classification?",
+      "expectedBehavior": "The app should return notes explaining that classification predicts categories or classes."
+    },
+    {
+      "id": 4,
+      "question": "What is overfitting?",
+      "expectedBehavior": "The app should return notes explaining that overfitting means learning training data too closely and performing poorly on new data."
+    },
+    {
+      "id": 5,
+      "question": "What is a confusion matrix?",
+      "expectedBehavior": "The app should return notes explaining that a confusion matrix evaluates classification performance."
+    }
+  ],
+  "failureCases": [
+    {
+      "id": 6,
+      "question": "What is quantum computing?",
+      "expectedBehavior": "The app should say it could not find a relevant answer because this topic is not in the prepared notes."
+    },
+    {
+      "id": 7,
+      "question": "How do I cook pasta?",
+      "expectedBehavior": "The app should say it could not find a relevant answer because this topic is outside the prepared notes."
+    }
+  ]
+}
